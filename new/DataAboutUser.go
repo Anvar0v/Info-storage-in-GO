@@ -16,11 +16,11 @@ func main() {
 	//? WHO LOOK FOR ======================================================
 	if LookForSomone == "Boris" || LookForSomone == "boris" {
 		user1 := User{
-			Name:        "Asliddin",
-			Surname:     "Mahamadjaniov",
-			whereLives:  "Aviasozlar 2, 1/39",
+			Name:        "Boris",
+			Surname:     "Spasski",
+			whereLives:  "St.Linkoln 2, 1/39",
 			Birth:       "22.11.2002",
-			phoneNumber: +998909771763,
+			phoneNumber: +998134567821,
 			Ownings:     &Properties{item1: "Port", item2: "Car Business", item3: ""},
 		}
 		//? WHAT TO GET EXACTLY============================================
@@ -48,13 +48,13 @@ func main() {
 		}
 	}
 	//* USER 2 METHOD GET FULL INFO ========================================
-	if LookForSomone == "Diyorbek" {
+	if LookForSomone == "Mark" {
 		user2 := User{
-			Name:        "Diyorbek",
-			Surname:     "Anvarov",
-			whereLives:  "Muruvvat ST, House : 80",
+			Name:        "Mark",
+			Surname:     "Green",
+			whereLives:  "Linkol ST, House : 80",
 			Birth:       "03.02.2004",
-			phoneNumber: +998950750305,
+			phoneNumber: +9912345673215,
 			Ownings:     &Properties{item1: "NO INFO"},
 		}
 		//? WHAT TO GET EXACTLY 2 ============================================
